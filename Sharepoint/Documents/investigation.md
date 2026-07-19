@@ -28,6 +28,8 @@ SharePoint server.
 The log shows repeated failed login attempts, the logs keep coming on from 3.18 pm until successful login log appear at 3.44 pm
 The attacker successfully logged in as Local Sharepoint Administrator with the given password that was included in the rockyou.txt file
 
+splunk query : host=SP2016 index=security (EventCode=4624 OR EventCode=4625)
+
 ## Sharepoint Compormised and Persistense
 
 ![Compromised](../../images/compromised.png)
@@ -35,6 +37,9 @@ The attacker successfully logged in as Local Sharepoint Administrator with the g
 ![User Created](../../images/createuser.png)
 
 The attacker is able to change the Local Sharepoint Administrator password, also created a local user account name dn for persistent access.
+
+splunk query : host=SP2016 index=security EventCode=4720
+splunk query : host=SP2016 index=security EventCode=4738
 
 ## Process Analysis
 
@@ -46,6 +51,8 @@ The attacker is able to change the Local Sharepoint Administrator password, also
 | `winpcap-4.3.exe` | Packet-capture driver |
 
 these are only the files that are executed 
+
+splunk query : index=sysmon EventCode=1
 
 ![masscan](../../images/masscan.png)
 
@@ -59,6 +66,7 @@ also there are two different masscan by looking at their hashes different, also 
 
 Lookin at Sysmon event id 3, show the impact of nlbrute which is targeting all these public ips which their RDP port is exposed.
 
+splunk query : host=SP2016 index=sysmon EventCode=3 Image="*\\NLBrute.exe"
 
 ## Conclusion
 
