@@ -47,18 +47,26 @@ The attacker is able to change the Local Sharepoint Administrator password, also
 
 these are only the files that are executed 
 
+![masscan](../../images/masscan.png)
 
+also there are two different masscan by looking at their hashes different, also the file size is different.
 
 ## Network Analysis
 
-Explain the external connections and suspicious destinations.
 
+![nlbrute](../../images/nlbruteimpact.png)
 
+The impact of nlbrute which is targeting all these public ips which their RDP port is exposed.
 
-## Evidence Samples
-
-Include short sanitized log examples or screenshots.
 
 ## Conclusion
 
-Summarize what likely happened and what the evidence supports.
+The available evidence indicates that an external source performed repeated
+RDP authentication attempts against the SharePoint honeypot. A successful
+Remote Desktop logon was later recorded from the same source.
+
+Following the successful session, Sysmon detected the execution of network
+scanning and brute-force utilities, including Masscan and NLBrute. The activity
+was classified as unauthorized remote access followed by network reconnaissance.
+
+
