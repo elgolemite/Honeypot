@@ -56,7 +56,8 @@ also there are two different masscan by looking at their hashes different, also 
 
 ![nlbrute](../../images/nlbruteimpact.png)
 
-The impact of nlbrute which is targeting all these public ips which their RDP port is exposed.
+
+Lookin at Sysmon event id 3, show the impact of nlbrute which is targeting all these public ips which their RDP port is exposed.
 
 
 ## Conclusion
