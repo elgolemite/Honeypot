@@ -23,8 +23,6 @@ SharePoint server.
 
 ## Authentication Analysis
 
-Explain the failed and successful RDP activity.
-
 ![Bruteforce](../../images/bruteforce.png)
 
 The log shows repeated failed login attempts, the logs keep coming on from 3.18 pm until successful login log appear at 3.44 pm
@@ -47,9 +45,15 @@ The attacker is able to change the Local Sharepoint Administrator password, also
 | `NLBrute.exe` | Brute-force utility |
 | `winpcap-4.3.exe` | Packet-capture driver |
 
+these are only the files that are executed 
+
+
+
 ## Network Analysis
 
 Explain the external connections and suspicious destinations.
+
+
 
 ## Evidence Samples
 
