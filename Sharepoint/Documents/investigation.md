@@ -8,7 +8,7 @@ SharePoint server.
 
 ## Investigation Timeline
 
-![Forensic Timeline](../images/RDPforensictimeline.png)
+![Forensic Timeline](../../images/RDPforensictimeline.png)
 
 | Time | Event | Evidence |
 |---|---|---|
