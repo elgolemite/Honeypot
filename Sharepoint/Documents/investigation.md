@@ -26,7 +26,8 @@ SharePoint server.
 ![Bruteforce](../../images/bruteforce.png)
 
 The log shows repeated failed login attempts, the logs keep coming on from 3.18 pm until successful login log appear at 3.44 pm
-The attacker successfully logged in as Local Sharepoint Administrator with the given password that was included in the rockyou.txt file
+The attacker successfully logged in as Local Sharepoint Administrator.
+The successful password was intentionally selected from the `rockyou.txt` dataset.
 
 splunk query : host=SP2016 index=security (EventCode=4624 OR EventCode=4625)
 
