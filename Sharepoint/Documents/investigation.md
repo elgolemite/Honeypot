@@ -28,6 +28,10 @@ The attacker successfully logged in as Local Sharepoint Administrator with the g
 
 ## Sharepoint Compormised and Persistense
 
+![Compromised](../../images/compromised.png)
+
+![User Created](../../images/createuser.png)
+
 The attacker is able to change the Local Sharepoint Administrator password, also created a local user account name dn for persistent access.
 
 ## Process Analysis
