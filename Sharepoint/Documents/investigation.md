@@ -52,7 +52,7 @@ splunk query : host=SP2016 index=security EventCode=4738
 
 these are only the files that are executed 
 
-splunk query : index=sysmon EventCode=1
+splunk query : host=SP2016 index=sysmon EventCode=1
 
 ![masscan](../../images/masscan.png)
 
