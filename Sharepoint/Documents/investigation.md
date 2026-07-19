@@ -2,6 +2,8 @@
 
 ## Incident Summary
 
+RDP is the only interesting finding, while Sharepoint Web all are just noises, nothing else.
+
 Repeated RDP login failures were followed by a successful remote login.
 Suspicious scanning and brute-force utilities were later observed on the
 SharePoint server.
@@ -14,6 +16,8 @@ SharePoint server.
 |---|---|---|
 | 3.18 pm - 3.43 pm | Failed RDP logins | Event ID 4625 |
 | 3.44 pm | Successful RDP login | Event ID 4624, Logon Type 10 |
+| 3.46 pm | Admin change password | Event ID 4738 |
+| 3.47 pm | new local user created | Event ID 4720 |
 | 10 June 2026 | Masscan execution | Sysmon Event ID 1 |
 | 10 June 2026 | Outbound connection | Sysmon Event ID 3 |
 
