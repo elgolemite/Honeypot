@@ -21,6 +21,8 @@ SharePoint server.
 
 Explain the failed and successful RDP activity.
 
+![Bruteforce](../../images/bruteforce.png)
+
 ## Process Analysis
 
 | Process | Finding |
