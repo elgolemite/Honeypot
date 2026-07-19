@@ -27,7 +27,7 @@ access, and outbound network connections.
 | Splunk | Log analysis and detection |
 | Active Directory | Authentication environment |
 
-![Lab Architecture](./images/Honeypotarchitecture.png)
+![Lab Architecture](../images/Honeypotarchitecture.png)
 
 ## Data Sources
 
