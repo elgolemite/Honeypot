@@ -8,6 +8,8 @@ SharePoint server.
 
 ## Investigation Timeline
 
+![Forensic Timeline](../images/RDPforensictimeline.png)
+
 | Time | Event | Evidence |
 |---|---|---|
 | 10 June 2026 | Failed RDP logins | Event ID 4625 |
