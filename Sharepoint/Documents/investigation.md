@@ -18,8 +18,8 @@ SharePoint server.
 | 3.44 pm | Successful RDP login | Event ID 4624, Logon Type 10 |
 | 3.46 pm | Admin change password | Event ID 4738 |
 | 3.47 pm | new local user created | Event ID 4720 |
-| 10 June 2026 | Masscan execution | Sysmon Event ID 1 |
-| 10 June 2026 | Outbound connection | Sysmon Event ID 3 |
+| 8 June 2026 | Masscan execution | Sysmon Event ID 1 |
+| 8 June 2026 | NLBrute Outbound connection | Sysmon Event ID 3 |
 
 ## Authentication Analysis
 
